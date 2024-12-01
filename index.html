@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frontend practice</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            /* background-color: aqua;   */
+        }
+        .nav{
+            height: 8%;
+            width: 100%;
+            /* background-color: beige; */
+            display: flex;
+            
+        }
+        .icon{
+            height: 100%;
+            width: 10%;
+            /* background-color: yellowgreen; */
+        }
+        img{
+            margin-left: 15px;
+        }
+        .menu{
+            height: 100%;
+            width: 40%;
+            /* background-color: red; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;     
+        }
+        a{
+            font-size:20px;
+            /* background-color: aquamarine; */
+            color: black;
+            text-decoration: none;
+        }
+        .account{
+            height: 100%;
+            width: 30%;
+            /* background-color: white; */
+            margin-left:320px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .main{
+            height:92%;
+            width: 100%;
+            background-color: red;
+            
+        }
+        .option{
+            height: 5%;
+            width: 20%;
+            display: flex;
+            /* background-color: blue; */
+            padding-left: 20px;
+            align-items: center;
+            justify-content: space-between;
+            
+            
+            
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="icon">
+                <img src="./images/Screenshot_2024-11-23_115135-removebg-preview.png" alt="loading">
+            </div>
+            <div class="menu">
+                <a href="home">LIVE</a>
+                <a href="push">PUSH</a>
+                <a href="link">LINK</a>
+                <a href="shop">SHOP</a>
+                <a href="packs">PACKS</a>
+                <a href="help">HELP</a>
+                <a href="more">MORE +</a>
+            </div>
+            <div class="account">
+                <a href="free trial">Try live for free</a>
+                <a href="login ">Login or Register</a>   
+            </div>
+
+        </div>
+        <hr>
+        <div class="main">
+            <div class="option">
+            <a href="about">About</a>
+            <a href="jobs">Jobs</a>
+            <a href="apprenticeships">Apprenticeship</a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
